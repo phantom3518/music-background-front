@@ -14,7 +14,7 @@
     </el-table>
     <!-- 确认删除的对话框 -->
     <el-dialog title="提示" :visible.sync="delDialogVisible" width="30%">
-      <span>确定删除该博客吗</span>
+      <span>确定删除该博客吗?</span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="delDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="doDel">确 定</el-button>
